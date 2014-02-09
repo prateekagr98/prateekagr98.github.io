@@ -72,15 +72,15 @@ body{
 }
 
 h1{
+	width: 100%;
+	margin: auto;
 	font-size: 3.5em;
-	font-family: "Raconteur Regular";
+	font-family: "Raconteur Regular", Serif;
 	text-transform: capitalize;
 }
 
 p{
-	margin: auto;
-	margin-top: 10px;
-	width: 330px;
-	font-size: 1.4em;
+	margin-top: 5px;
+	font-size: 1.3em;
 	font-family: "Arial";
 }
