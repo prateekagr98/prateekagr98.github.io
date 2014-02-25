@@ -46,7 +46,7 @@ table {
 	border-spacing: 0;
 }
 
-/* Reset CSS ended */
+/*************************************************** Reset CSS ended ***************************************************************************/
 @font-face
 {
 	font-family: "Raconteur Regular";
@@ -59,10 +59,39 @@ table {
 	src: url(shruti.ttf);
 }
 
+/******************************************* Bootstrap Navigation ***********************************************************************************/
+
+.navbar{
+	background: none;
+	border: none;
+}
+
+#navBar li a{
+	color: white;
+	font-size: 1.3em;
+	font-family: "Arial";
+}
+
+#navBar li a:hover{
+	color: #b8bfc3;
+}
+
+/*********************************************** General CSS ****************************************************************************/
+
 body{
 	background: url('../img/background.png');
 	background-position: -50% -50%;
 	color: white;
+}
+
+.logo{
+	width: 100%;
+	margin-top: 15px;
+	margin-left: 10px;
+	color: white;
+	font-size: 1.5em;
+	font-family: "Raconteur Regular", Georgia, Serif;
+	text-transform: capitalize;
 }
 
 .intro{
@@ -71,7 +100,7 @@ body{
 	width: 565px;
 }
 
-h1{
+.intro h1{
 	width: 100%;
 	margin: auto;
 	font-size: 3.5em;
@@ -79,7 +108,7 @@ h1{
 	text-transform: capitalize;
 }
 
-p{
+.intro p{
 	margin-top: 5px;
 	font-size: 1.3em;
 	font-family: "Arial";
