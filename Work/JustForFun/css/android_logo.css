@@ -1,0 +1,178 @@
+/********************************************* Android Logo *******************************************************/
+
+div div{
+	background: #A4CA39; 
+	position: relative;
+}
+
+.android{
+	height: 404px; width: 334px;
+	margin: 100px auto;
+}
+
+.head{
+	margin: auto;
+	width: 220px; height: 100px;
+	top: 32px;
+	
+	border-radius: 110px 110px 0 0;
+	-moz-border-radius: 110px 110px 0 0;
+	-webkit-border-radius: 110px 110px 0 0;
+	
+	-webkit-transition: all 0.1s ease-in;
+}
+
+.l_eye, .r_eye {
+	background: #fff;
+	width: 20px; 
+	height: 20px;
+	position: absolute; 
+	top: 42px;
+	
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+
+	-webkit-transition: 0.5s ease; /* For Safari 3.1 to 6.0 */
+	transition: 0.5s ease;
+}
+
+.l_eye {
+	left: 50px;
+}
+
+.r_eye {
+	right: 50px;
+}
+
+.l_antenna, .r_antenna{
+	width: 6px; 
+	height: 50px;
+	position: absolute; 
+	top: -34px;
+	
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+
+	-webkit-transition: 0.7s ease; /* For Safari 3.1 to 6.0 */
+	transition: 0.7s ease;
+}
+
+.l_antenna {
+	left: 60px;
+	transform: rotate(-30deg);
+	transform-origin:50% 100%;
+	-ms-transform: rotate(-30deg); /* IE 9 */
+	-ms-transform-origin:50% 100%; /* IE 9 */
+	-webkit-transform: rotate(-30deg); /* Chrome, Safari, Opera */
+	-webkit-transform-origin:50% 100%; /* Chrome, Safari, Opera */
+}
+
+.r_antenna {
+	right: 60px;
+	transform: rotate(30deg);
+	transform-origin:50% 100%;
+	-ms-transform: rotate(30deg); /* IE 9 */
+	-ms-transform-origin:50% 100%; /* IE 9 */
+	-webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+	-webkit-transform-origin:50% 100%; /* Chrome, Safari, Opera */
+}
+
+.body{
+	margin:auto;
+	width: 220px; 
+	height: 184px;
+	top: 40px;
+	
+	border-radius: 0 0 25px 25px;
+	-webkit-border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+}
+
+.l_arm, .r_arm, .l_leg, .r_leg {
+	width: 50px; 
+	position: absolute;
+	-webkit-transition: all 0.1s ease-in;
+}
+
+.l_arm, .r_arm {
+	height: 150px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+}
+
+.l_leg, .r_leg {
+	height: 90px; 
+	top: 172px;
+	border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+	-webkit-border-radius: 0 0 25px 25px;
+}
+
+.l_arm {
+	left: -58px;
+}
+
+.r_arm {
+	right: -58px;
+}
+
+.l_leg {
+	left: 45px;
+}
+
+.r_leg {
+	right: 45px;
+}
+
+/********************************************************** Animation ******************************************************************/
+
+.l_antenna:hover, .l_antenna:active{
+	-webkit-transform: rotate(0deg);
+	-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+}
+
+.r_antenna:hover, .r_antenna:active{
+	-webkit-transform: rotate(0deg);
+	-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+}
+
+.l_eye:hover, .r_eye:hover, .l_eye:active, .r_eye:active{
+	top:50px;
+	height: 5px;
+	width: 20px;
+}
+
+.l_arm:hover, .l_arm:active{
+	-webkit-transform: rotate(15deg) translate(-14px, 0);
+	-transform: rotate(15deg) translate(-14px, 0);
+	-moz-transform: rotate(15deg) translate(-14px, 0);
+}
+
+.r_arm:hover, .r_arm:active{
+	-webkit-transform: rotate(-30deg) translate(30px, 0);
+	-transform: rotate(-30deg) translate(30px, 0);
+	-moz-transform: rotate(-30deg) translate(30px, 0);
+}
+
+.l_leg:hover, .l_leg:active{
+	transform: rotate(10deg);
+	transform-origin:50% 0%;
+	-ms-transform: rotate(10deg); /* IE 9 */
+	-ms-transform-origin:50% 0%; /* IE 9 */
+	-webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+	-webkit-transform-origin:50% 0%; /* Chrome, Safari, Opera */
+}
+
+.r_leg:hover, .r_leg:active{
+	transform: rotate(-10deg);
+	transform-origin:50% 0%;
+	-ms-transform: rotate(-10deg); /* IE 9 */
+	-ms-transform-origin:50% 0%; /* IE 9 */
+	-webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+	-webkit-transform-origin:50% 0%; /* Chrome, Safari, Opera */
+}
