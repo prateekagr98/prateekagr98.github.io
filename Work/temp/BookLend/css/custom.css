@@ -103,7 +103,7 @@ body#loginPage{
 	font-size: 1.3em;
 }
 
-.signup_button:hover{
+.signup_button:hover, .loginForm button:hover{
 	cursor: pointer;
 }
 
