@@ -182,3 +182,64 @@ HomePage CSS
 	background: url('../img/homepage-bg.png') no-repeat;
 	background-size: cover;
 }
+
+.homepageCaption{
+	margin: auto;
+	margin-top: 30px;
+	width: 990px;
+	text-align: center;
+	color: #b7b6b6;
+	font-size: 1.1em;
+}
+
+.gallery{
+	margin: auto;
+	margin-top: 50px;
+	width: 990px;
+}
+
+.galleryItem{
+	display: inline-block;
+	width: 150px;
+	margin-right: 50px;
+	margin-bottom: 35px;
+}
+
+.galleryItem:nth-child(5n){
+	margin-right: 0px;
+}
+
+.galleryItemImage{
+	width: 100%;
+	height: 170px;
+	border: 1px dotted #000000;
+	padding: 1px;
+
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.galleryItemImage img{
+	width: 100%;
+	height: 100%;
+}
+
+.galleryItemText{
+	margin-top: 2px;
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background: #a8aaab;
+}
+
+.galleryItemText p{
+	margin: auto;
+	position: absolute;
+	top: 0px; left: 0px; right: 0px; bottom: 0px;
+	width: 140px;
+	height: 35px;
+	text-align: center;
+	font-size: 0.9em;
+	color: #FFFFFF;
+}
