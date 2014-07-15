@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Profile | Oritecture</title>
+		<link rel="stylesheet" href="../assets/css/jquery.bxslider.css" />
 		<link rel="stylesheet" href="../assets/css/custom.css" />
 	</head>
 	<body>
@@ -41,12 +42,46 @@
 
 		<div class="profile_container">
 			<div class="profile_gallery">
-				Image Slideshow would come here
+				<ul class="bxslider">
+  					<li><img src="../assets/img/dummy.jpg" title="Caption comes here.." /></li>
+  					<li><img src="../assets/img/dummy.jpg" title="Caption comes here.." /></li>
+  					<li><img src="../assets/img/dummy.jpg" title="Caption comes here.." /></li>
+  					<li><img src="../assets/img/dummy.jpg" title="Caption comes here.." /></li>
+  					<li><img src="../assets/img/dummy.jpg" title="Caption comes here.." /></li>
+  					<li><img src="../assets/img/dummy.jpg" title="Caption comes here.." /></li>
+  					<li><img src="../assets/img/dummy.jpg" title="Caption comes here.." /></li>
+				</ul>
+
+				<div id="bx-pager">
+  					<a data-slide-index="0" href=""><img src="../assets/img/dummy.jpg" /></a>
+  					<a data-slide-index="1" href=""><img src="../assets/img/dummy.jpg" /></a>
+  					<a data-slide-index="2" href=""><img src="../assets/img/dummy.jpg" /></a>
+  					<a data-slide-index="3" href=""><img src="../assets/img/dummy.jpg" /></a>
+  					<a data-slide-index="4" href=""><img src="../assets/img/dummy.jpg" /></a>
+  					<a data-slide-index="5" href=""><img src="../assets/img/dummy.jpg" /></a>
+  					<a data-slide-index="6" href=""><img src="../assets/img/dummy.jpg" /></a>
+				</div>
 			</div>
 			<div class="profile_content">
 				<h2 class="profile_heading">
 					Passages, and more recently with desktop
 				</h2>
+				<div class="socialShare">
+
+					<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-type="button_count"></div>
+					
+					<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
+					
+					<div class="g-plus" data-action="share" data-annotation="bubble"></div>
+
+					<script src="//platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+					<script type="IN/Share" data-counter="right"></script>
+
+					<a href="http://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.flickr.com%2Fphotos%2Fkentbrew%2F6851755809%2F&media=http%3A%2F%2Ffarm8.staticflickr.com%2F7027%2F6851755809_df5b2051c9_z.jpg&description=Next%20stop%3A%20Pinterest" data-pin-do="buttonPin" data-pin-config="above">
+        				<img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" />
+    				</a>
+				
+				</div>
 				<hr class="division" noshade="noshade">
 				<p>
 					jjhmhbgbgfhfbkjbfgkbgbkbkgbwjb
@@ -70,6 +105,27 @@
 		</div>
 
 		<script src="../assets/js/jquery-2.1.1.min.js"></script>
+		<script src="../assets/js/jquery.bxslider.min.js"></script>
 		<script src="../assets/js/custom.js"></script>
+
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+  			var js, fjs = d.getElementsByTagName(s)[0];
+  			if (d.getElementById(id)) return;
+  			js = d.createElement(s); js.id = id;
+  			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=671957999561800&version=v2.0";
+  			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+		</script>
+		<script>
+		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+		</script>
+		<script type="text/javascript">
+  			(function() {
+    			var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    			po.src = 'https://apis.google.com/js/platform.js';
+    			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  			})();
+		</script>
 	</body>
 </html>

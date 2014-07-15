@@ -121,6 +121,7 @@ Header CSS
 */
 
 .header{
+	position: relative;
 }
 
 .oritecture_heading{
@@ -170,6 +171,12 @@ nav ul li a{
 
 nav ul li a:hover{
 	color: #CCCCCC;
+}
+
+.flickr{
+	position: absolute;
+	top: 0px;
+	right: 150px;
 }
 
 /*
@@ -284,4 +291,32 @@ ProfilePage CSS
 	color: #b7b6b6;
 	line-height: 130%;
 	letter-spacing: 0.7px;
+}
+
+.bxslider{
+	width: 100%;
+}
+
+.bxslider img{
+	width: 100%;
+}
+
+#bx-pager{
+	margin-top: -30px;
+	width: 100%;
+}
+
+#bx-pager a{
+	width: 100px;
+	height: 100px;
+}
+
+#bx-pager a img{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 10px;
+}
+
+.socialShare{
+	margin-top: 10px;
 }
