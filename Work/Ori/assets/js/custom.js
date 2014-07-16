@@ -7,7 +7,8 @@ $(document).ready(function(){
 		$('.bxslider').bxSlider({
   			pagerCustom: '#bx-pager',
   			captions: true,
-  			adaptiveHeight: true,
+  			adaptiveHeight: false,
+  			controls: false
 		});
 	}
 });
