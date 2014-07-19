@@ -1,6 +1,7 @@
 $(document).ready(function(){
-	if($('.slideshow').get(0)){
-		$('.slideshow').cycle('fade');
+
+	if($('.rslides').get(0)){
+		$('.rslides').responsiveSlides();
 	}
 
 	if($('.bxslider').get(0)){
