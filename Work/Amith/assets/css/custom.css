@@ -1,0 +1,158 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Reset CSS ends */
+
+/*
+====================================================
+HomePage CSS
+====================================================
+*/
+body{
+	background: url('../images/bg.jpg');
+	background-size: cover;
+	overflow: hidden;
+}
+
+.body_container{
+	margin: auto;
+	position: absolute;
+	top: 0px; left: 0px; right: 0px; bottom: 0px;
+	width: 948px;
+	height: 643px;
+	background: url('../images/tablet2.png');
+	background-size: 100% 100%;
+}
+
+.content{
+	position: relative;
+	margin: auto;
+	padding: 54px;
+	padding-top: 57px;
+	width: 70%;
+	min-width: 950px;
+
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.header{
+	height: 50px;
+	background: #0295DC;
+}
+
+.menu{
+	float: left;
+}
+
+.menu:hover{
+	cursor: pointer;
+}
+
+.menu-icon{
+	width: 30px;
+	padding-top: 13px;
+}
+
+.selected_tab{
+	position: relative;
+	top: -7px; left: 5px;
+	color: #FFFFFF;
+	font-family: 'Tahoma';
+	font-size: 1.3em;
+}
+
+.heading{
+	padding-top: 10px;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: 'Tahoma';
+	font-size: 1.6em;
+}
+
+nav{
+	display: none;
+	position: absolute;
+	left: 54px;
+	padding-top: 30px;
+	width: 150px;
+	height: 100%;
+	padding-bottom: 10px;
+	color: #FFFFFF;
+	background: #0295DC;
+}
+
+nav li{
+	padding: 10px;
+}
+
+nav li a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/*
+=======================================
+Main Container
+=======================================
+*/
+
+.main_content{
+	padding-top: 20px;
+	font-family: 'Tahoma';
+}
+
+#slideshow .item{
+  margin: 3px;
+}
+
+#slideshow .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}

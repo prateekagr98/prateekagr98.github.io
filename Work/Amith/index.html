@@ -1,0 +1,88 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Amith Tank</title>
+		<link rel='stylesheet' href="assets/css/custom.css" />
+		<link rel='stylesheet' href="assets/css/owl.carousel.css" />
+		<link rel='stylesheet' href="assets/css/owl.theme.css" />
+		<link rel='stylesheet' href="assets/css/perfect-scrollbar.min.css" />
+		<link rel='stylesheet' href="assets/css/owl.transitions.css" />
+	</head>
+	<body>
+		<div class="body_container">
+			<div class="content">
+				<div class="header">
+					<div class="menu">
+						<img class="menu-icon" src="assets/images/menu-icon.png" />
+						<span class="selected_tab">
+							Home
+						</span>
+					</div>
+					<p class="heading">
+						Android Tutors
+					</p>
+				</div>
+				<nav>
+					<ul>
+						<li>
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#">Prateek Agarwal</a>
+						</li>
+						<li>
+							<a href="#">Prateek Agarwal</a>
+						</li>
+						<li>
+							<a href="#">Prateek Agarwal</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="main_content">
+					<div id="slideshow">    
+  						<div class="item"><img src="assets/images/createjs.png"></div>
+  						<div class="item"><img src="assets/images/createjs.png"></div>
+  						<div class="item"><img src="assets/images/createjs.png"></div>
+  						<div class="item"><img src="assets/images/createjs.png"></div>
+  						<div class="item"><img src="assets/images/createjs.png"></div>
+  						<div class="item"><img src="assets/images/createjs.png"></div>
+  						<div class="item"><img src="assets/images/createjs.png"></div>
+  						<div class="item"><img src="assets/images/createjs.png"></div> 
+					</div>
+					<div class="about_us">
+						<h3>Amith Tank</h3>
+						<img src="assets/images/createjs.png">
+						<img src="assets/images/createjs.png">
+						<img src="assets/images/createjs.png">
+						<img src="assets/images/createjs.png">
+						<img src="assets/images/createjs.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="assets/js/jquery-1.9.1.min.js"></script>
+		<script src="assets/js/owl.carousel.min.js"></script>
+		<script src="assets/js/perfect-scrollbar.with-mousewheel.min.js"></script>
+		<script src="assets/js/custom.js"></script>
+		<script>
+    function changeSize() {
+        var width = parseInt($("#Width").val());
+        var height = parseInt($("#Height").val());
+
+        if(!width || isNaN(width)) {
+            width = 600;
+        }
+        if(!height || isNaN(height)) {
+            height = 400;
+        }
+        $("#Demo").width(width).height(height);
+
+        // update perfect scrollbar
+        $('#Demo').perfectScrollbar('update');
+    }
+    $(function() {
+        $(".body_container").perfectScrollbar();
+    });
+</script>
+	</body>
+</html>
