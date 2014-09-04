@@ -132,7 +132,7 @@ Homepage
 .socialLinks{
 	position: fixed;
 	top: 20px; right: 20px;
-	width: 240px;
+	width: 295px;
 	height: 40px;
 }
 
@@ -145,26 +145,6 @@ Homepage
 .socialLinks a img{
 	width: 40px;
 	border-radius: 100%;
-}
-
-.gmail{
-	top: 20px;
-	left: 20px;
-}
-
-.twitter{
-	top: 20px;
-	right: 20px;
-}
-
-.facebook{
-	right: 20px;
-	bottom: 20px;
-}
-
-.linkedin{
-	bottom: 20px;
-	left: 20px;
 }
 
 /*
